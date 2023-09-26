@@ -232,7 +232,7 @@ class Game extends JFrame {
         // standard configuration
         setSize(new Dimension(500, 600));
         getContentPane().setBackground(new Color(0x555555));
-        setTitle("1903148 - QuarantineQuest");
+        setTitle("1903148 - COVIDSweepr");
         setResizable(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
@@ -436,7 +436,7 @@ class ScoreWindow extends JFrame {
         setLayout(new FlowLayout());
         setSize(new Dimension(500,600));
         setResizable(false);
-        setTitle("1903148 - QuarantineQuest - Results");
+        setTitle("1903148 - COVIDQuest - Results");
         getContentPane().setBackground(new Color(0x555555));
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
